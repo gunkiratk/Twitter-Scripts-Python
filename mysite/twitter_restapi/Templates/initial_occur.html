@@ -1,0 +1,15 @@
+<html>
+<head><title></title></head>
+<body>
+	<h1>Enter your screen name</h1>
+	<form action="/twitter/occur/" method='POST'>
+	{% csrf_token %}	
+		<input type="text" name="Name" placeholder="Name"><br>
+		<input type="Submit" name="Graph" value="wordco-occurence" />
+		
+	</form>
+	
+	
+	
+</body>
+</html>		

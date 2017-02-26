@@ -1,0 +1,15 @@
+<html>
+<head><title></title></head>
+<body>
+	<h1>Enter your screen name</h1>
+	<form action="/twitter/network/" method='POST'>
+	{% csrf_token %}	
+		<input type="text" name="Name" placeholder="Name"><br><br>
+		<input type="Submit" name="Graph" value="network of followers" />
+		
+	</form>
+	
+	
+	
+</body>
+</html>		
